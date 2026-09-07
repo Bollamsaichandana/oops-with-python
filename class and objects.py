@@ -1,14 +1,8 @@
-class student:
-    name="kprit"
-    age=16
-    def read(self):
-        age=15
-        print(age)
-        print("reading")
-    def write():
-        print("writing")
-s1=student()
-s2=student()
-s3=student()
-print(s1.name)
-print(s1.age)
+class student():
+    def display(self):
+        print("student details")
+    def study(self):
+        print("student is reading")
+s = student()
+s.display()
+s.study()
